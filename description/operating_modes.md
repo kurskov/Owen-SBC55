@@ -5,11 +5,11 @@
 * режим ожидания (Stand by)
 * отмывка (Wash)
 * продувка после отмывки (Air blast, tank 1)
-* стекание после отмывки (Drip, tank 1)
+* стекание после отмывки (Dripping, tank 1)
 * ополаскивание (Rinse)
 * продувка после ополаскивания (Air blast, tank2)
-* стекание после ополаскивания (Drip, tank 2)
-* обдув (Air blow)
+* стекание после ополаскивания (Dripping, tank 2)
+* обдув (Air blast)
 * сушка (Drying)
 
 
@@ -23,12 +23,14 @@
 |**Stand by**           | x|  |  |  |  |  |  |  | x|  |  |  |  |  |  | x| x|  | x| x| x|
 |**Wash**               | x| x| x| x|  |  | x|  | x| p| p|  |  | x| x|  |  |  | x| x| x|
 |**Air blast, tank 1**  | x|  | x| x|  |  |  |  | x|  |  |  | x| x| x|  | x| x| x| x| x|
-|**Drip, tank 1**       | x|  | x| x|  |  |  |  | x|  |  |  |  | x| x|  | x|  | x| x| x|
+|**Dripping, tank 1**   | x|  | x| x|  |  |  |  | x|  |  |  |  | x| x|  | x|  | x| x| x|
 |**Rinse**              | x|  | x| x|  | x|  | x| x| p| p|  |  | x|  | x|  |  | x| x| x|
 |**Air blast, tank 2**  | x|  | x| x|  |  |  |  | x|  |  |  | x| x|  | x| x| x| x| x| x|
-|**Drip, tank 2**       | x|  | x| x|  |  |  |  | x|  |  |  |  | x|  | x| x|  | x| x| x|
-|**Air blow**           | x|  |  |  | x|  |  |  | x| p| p| x| x| x|  | x| x| x| x| x| x|
+|**Dripping, tank 2**   | x|  | x| x|  |  |  |  | x|  |  |  |  | x|  | x| x|  | x| x| x|
+|**Air blast**          | x|  |  |  | x|  |  |  | x| p| p| x| x| x|  | x| x| x| x| x| x|
 |**Drying**             | x|  |  |  | x|  |  |  | x|  |  | x| x| x|  | x| x|  | x| x| x|
+
+В этой таблице есть неточности и неучтенные варианты поведения машины в зависимости от настроек системы.
 
 ## Aварийная остановка (Emergency stop)
 
