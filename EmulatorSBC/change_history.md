@@ -1,5 +1,15 @@
 # История изменений
 
+# Версия 1.0.0
+Добавлено:
+- эмуляция работы нагревателей и температурных датчиков : [#4](https://github.com/kurskov/Owen-SBC55/issues/4)
+- эмуляция нажатия кнопки Emergency Stop : [#13](https://github.com/kurskov/Owen-SBC55/issues/13)
+- отображение состояния всех входов/выходов для основного реле : [#2](https://github.com/kurskov/Owen-SBC55/issues/2)
+- новые режимы (6-7) в эмуляции ошибок : [#3](https://github.com/kurskov/Owen-SBC55/issues/3)
+
+Изменено:
+- вынесены коды ошибок из макросов в основную программу : [#14](https://github.com/kurskov/Owen-SBC55/issues/14)
+
 # Версия 0.2.1
 Исправлено:
 - изменено время включения красного диода : [#10](https://github.com/kurskov/Owen-SBC55/issues/10)
